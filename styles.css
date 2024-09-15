@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Agrupación de inputs */
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las casillas de entrada */
+.input-box {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+/* Botón de comprobación */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+/* Mensaje */
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
