@@ -9,6 +9,7 @@
             background-color: #000;
             color: #fff;
             display: flex;
+            flex-direction: column; /* Organiza en columna para colocar imagen y texto */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -16,11 +17,20 @@
         }
         img {
             max-width: 100%;
-            max-height: 100%;
+            max-height: 80%;
+        }
+        /* Estilo para el texto en amarillo */
+        .yellow-text {
+            color: yellow;
+            font-size: 24px;
+            margin-top: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <img src="Imagen.png" alt="Felicidades">
+    <img src="Imagen.PNG" alt="Felicidades">
+    <!-- Texto en amarillo debajo de la imagen -->
+    <p class="yellow-text">¿Manzanillas amarillas?</p>
 </body>
 </html>
